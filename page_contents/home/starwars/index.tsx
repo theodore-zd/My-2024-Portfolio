@@ -21,7 +21,7 @@ const variants = {
 }
 
 export const HomeStarwarsSection = () => {
-  const [playSound] = useSound('/sounds/falcon-jump.mp3', { volume: 0.02, playbackRate: 1 })
+  const [playSound] = useSound('/sounds/falcon-jump.mp3', { volume: 0.05, playbackRate: 1 })
   const [active, setActive] = useState(false)
   const [falconFlag, setFalconFlag] = useState(false)
 
