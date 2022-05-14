@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.headerFont{
+  font-family: 'Karla', 'ui-sans-serif', 'system-ui'
+}
+html {
+  font-family: 'Roboto Slab', 'ui-sans-serif', 'system-ui';
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.theme-green-dark{
+  --main-bg: 41, 47, 45;
+  --accent: 112, 187, 93;
+  --text-main: 255, 255, 255;
+  --text-accent: 178, 179, 179;
+  --text-alt: 35, 35, 35;
+}
+
+.theme-green-light{
+  --main-bg: 245, 248, 236;
+  --accent: 112, 187, 93;
+  --text-main: 17, 21, 28;
+  --text-accent: 60, 64, 70;
+  --text-alt: 255, 255, 255;
+}
+
+.theme-red-dark{
+  --main-bg: 37, 36, 36;
+  --accent: 214, 104, 83;
+  --text-main: 255, 255, 255;
+  --text-accent: 178, 179, 179;
+  --text-alt: 35, 35, 35;
+}
+
+.theme-red-light{
+  --main-bg: 230, 233, 239;
+  --accent: 214, 104, 83;
+  --text-main: 17, 21, 28;
+  --text-accent: 60, 64, 70;
+  --text-alt: 255, 255, 255;
+}
