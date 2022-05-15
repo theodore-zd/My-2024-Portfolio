@@ -21,7 +21,7 @@ const HomeLandingSection = () => {
       <div className='lg:-ml-28 p-4'>
         <p className='text-lg font-bold text-theme-accent'>Hi, my name is</p>
         <h1 className='headerFont text-4xl lg:text-6xl mt-4 mb-12 font-[800] leading-[3.2rem] lg:leading-[4.3rem] '>
-          <span>Hi, my name is Theodore.<br/></span>
+          <span>Theodore Zurek-Dunne<br/></span>
           <span className='text-theme-text-accent block'>
             I design & build things <span className='sm:block'>for the web.</span>
           </span>
