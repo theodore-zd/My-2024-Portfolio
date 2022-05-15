@@ -39,6 +39,10 @@ const HomeExperienceSection = () => {
           <span className='text-theme-accent ml-2'>{'/>'}</span>
         </p>
       </div>
+
+      <div className='lg:hidden whitespace-nowrap text-sm text-theme-text-main/50 text-center mt-14 -mb-16'>
+        {'<-- Drag/Scroll -->'}
+      </div>
       <div className='md:grid md:grid-cols-3 pt-20 min-h-[52vh]'>
         <div className='flex md:grid md:grid-cols-1 lg:h-60 w-fit max-w-[95vw] lg:overflow-hidden overflow-x-scroll text-lg text-theme-text-main font-bold headerFont'>
           {
