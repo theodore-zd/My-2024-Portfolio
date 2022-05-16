@@ -20,7 +20,7 @@ export default [
     title: 'Nexxt Construction',
     desc: 'Nexxt construction is a single page website template build on NextJs, TypeScript & Tailwind.',
     tools: ['NextJs', 'TypeScript', 'Tailwind'],
-    live: '',
+    live: 'https://next-construction.netlify.app',
     git: ''
   }
 ]
