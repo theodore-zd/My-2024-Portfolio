@@ -4,8 +4,8 @@ export default [
     title: 'Kato CMS',
     desc: 'Kato CMS is a custom content management system I built to facilitate additional functionality for my clients. Built on a microservice architecture operating as a headless content system.',
     tools: ['NodeJs', 'React', 'MongoDB', 'Socket.io', 'Express', 'Docker'],
-    live: 'https://dashboard.kato.studio/login'
-    // git: ''
+    live: 'https://dashboard.kato.studio/login',
+    git: ''
   },
   {
     image: '/Web_Scraper.jpg',
