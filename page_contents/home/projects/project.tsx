@@ -68,17 +68,25 @@ export const ProjectComp = ({ image, title, desc, tools, live, git, flip }:proje
           <span>{']'}</span>
         </div>
         <div className='flex mt-8'>
-          <a href={live}>
-            <LinkButton
-              text='Live Demo'
-            />
-          </a>
-          <a href={git}>
-            <LinkButton
-              secondary
-              text='Git'
-            />
-          </a>
+          {
+            live !== ''
+              ? <a href={live}>
+              <LinkButton
+                text='Live Demo'
+              />
+            </a>
+              : null
+          }
+          {
+            git !== ''
+              ? <a href={git}>
+              <LinkButton
+                secondary
+                text='Git'
+              />
+            </a>
+              : null
+          }
         </div>
       </div>
     </div>

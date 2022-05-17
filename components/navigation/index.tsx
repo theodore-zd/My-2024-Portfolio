@@ -11,7 +11,7 @@ import { ThemeChanger } from './themeChanger'
 const menuItems = [
   { label: 'Skills', link: '#skills' },
   { label: 'Projects', link: '#projects' },
-  { label: 'Contact', link: 'mailto:name@email.com' }
+  { label: 'Contact', link: 'mailto:hello@zurekcreative.com' }
 ]
 
 const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
