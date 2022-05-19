@@ -66,7 +66,7 @@ const HomeAboutSection = () => {
             About Me <span className='text-theme-accent'>/&gt;</span>
           </h2>
           <p className='mb-10 mr-5 md:mr-15 lg:mr-20 text-theme-text-accent'>
-            {'I fell in love with design & coding 7 years ago. Since then I\'ve had the opportunity to work for agencies and small businesses, designing system, building websites, and all kinds of other awesome projects I believe in making every project better than my last.'}
+            {'I fell in love with design & coding 7 years ago. Since then I\'ve had the opportunity to work for agencies and small businesses designing systems, building websites, and all kinds of other awesome projects. I believe in making every project better than my last.'}
             <br/>
             <br/>
             {'I\'m always trying out new libraries and frameworks, even if just for cool weekend projects. '}
