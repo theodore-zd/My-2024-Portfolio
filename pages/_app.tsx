@@ -4,8 +4,7 @@ import { useEffect } from 'react'
 import { useStore } from '../lib/state'
 
 function MyApp ({ Component, pageProps }: AppProps) {
-  const { setMousePos, setScroll, setScreenWidth, Theme, setTheme } = useStore(state => state)
-
+  const { setMousePos, setScroll, setScreenWidth, Theme, setTheme } = useStore((state:any) => state)
   useEffect(() => {
     if (localStorage.getItem('theme') && localStorage.getItem('theme') !== Theme) {
       setTheme(localStorage.getItem('theme'))
