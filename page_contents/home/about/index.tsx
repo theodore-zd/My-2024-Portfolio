@@ -10,8 +10,8 @@ export interface stateInterface{
 }
 
 const HomeAboutSection = () => {
-  const screenWidth = useStore(state => state.screenWidth)
-  const { mouseY, mouseX } = useStore(state => state.mousePos)
+  const screenWidth = useStore((state:any) => state.screenWidth)
+  const { mouseY, mouseX } = useStore((state:any) => state.mousePos)
 
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [canvasState, setCanvasState] = useState<stateInterface>({
