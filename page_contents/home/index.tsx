@@ -11,7 +11,7 @@ import HomeExperienceSection from './experience'
 import HomeContactSection from './contact'
 
 const Home: NextPage = () => {
-  const { screenWidth, NAVBAR_BREAKPOINT } = useStore(state => state)
+  const { screenWidth, NAVBAR_BREAKPOINT } = useStore((state:any) => state)
 
   return (
     <div className='bg-theme-main-bg'>

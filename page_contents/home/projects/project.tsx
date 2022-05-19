@@ -13,8 +13,8 @@ interface projectInterface {
 }
 
 export const ProjectComp = ({ image, title, desc, tools, live, git, flip }:projectInterface) => {
-  const screenWidth = useStore(state => state.screenWidth)
-  const Theme = useStore(state => state.Theme)
+  const screenWidth = useStore((state:any) => state.screenWidth)
+  const Theme = useStore((state:any) => state.Theme)
 
   let imageUrl = image
 

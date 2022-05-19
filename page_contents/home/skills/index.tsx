@@ -8,10 +8,10 @@
 import { SkillsComp } from './skills'
 
 const HomeSkillsSection = () => {
-  // const Theme = useStore(state => state.Theme)
+  // const Theme = useStore((state:any) => state.Theme)
   // const router = useRouter()
-  // const { mouseY, mouseX } = useStore(state => state.mousePos)
-  // const scrollData = useStore(state => state.scrollData)
+  // const { mouseY, mouseX } = useStore((state:any) => state.mousePos)
+  // const scrollData = useStore((state:any) => state.scrollData)
   // const scale = 1.5
 
   const favTools:string[] = [

@@ -15,7 +15,7 @@ const menuItems = [
 ]
 
 const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
-  // const { setTheme, Theme } = useStore(state => state)
+  // const { setTheme, Theme } = useStore((state:any) => state)
   // eslint-disable-next-line prefer-const
   const [hover, setHover] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)

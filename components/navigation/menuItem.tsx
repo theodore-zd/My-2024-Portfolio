@@ -4,7 +4,7 @@ import { fadeIn } from '../../lib/animation/fadeIn'
 
 const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, index: number, menuOpen:any, setMenuOpen:Function, collapse: boolean }) => {
   // const [hover, setHover] = useState(false)
-  // const { mouseY, mouseX } = useStore(state => state.mousePos)
+  // const { mouseY, mouseX } = useStore((state:any) => state.mousePos)
 
   return <motion.div
       className='relative'

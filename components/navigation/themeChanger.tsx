@@ -5,8 +5,8 @@ import { Image } from '../image'
 import { useStore } from '../../lib/state'
 export const ThemeChanger = () => {
   const [open, setOpen] = useState(false)
-  // const Theme = useStore(state => state.Theme)
-  const setTheme = useStore(state => state.setTheme)
+  // const Theme = useStore((state:any) => state.Theme)
+  const setTheme = useStore((state:any) => state.setTheme)
 
   return <div>
     <div
