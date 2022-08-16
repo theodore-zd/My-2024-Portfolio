@@ -1,5 +1,13 @@
 export default [
   {
+    title: 'Indie Tech',
+    desc: 'Toronto, ON | May 2022 - Current',
+    info: [
+      'Lead a UI/UX redesign of onboarding as well as other core systems resulting in drastically increase in user testing scores.',
+      'Implemented design systems and reusable components while developing new features, resulting in a increased development speed and a decrease in technical dept gained on from features.'
+    ]
+  },
+  {
     title: 'Kato.Studio',
     desc: 'Toronto, ON | Oct 2020 - May 2022',
     info: [
@@ -25,7 +33,7 @@ export default [
     ]
   },
   {
-    title: 'Freelance',
+    title: 'Freelance Graphic Designer',
     desc: 'Toronto, ON | Jan 2016 - Dec 2018',
     info: [
       'Consulted with clients on the most appropriate solutions for their business pain points.',

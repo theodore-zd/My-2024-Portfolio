@@ -20,9 +20,9 @@ const HomeSkillsSection = () => {
     'Docker', 'MongoDb', 'Netlify'
   ]
   const toolBox:string[] = [
-    'Jest', 'Mongoose', 'Prisma', 'Express',
-    'Redux', 'Sass', 'JavaScript', 'Socket.io',
-    'Styled Components', 'Python', 'npm'
+    'Jest', 'Mongoose', 'Prisma', 'Express', 'CSS3',
+    'Redux', 'Sass', 'JavaScript', 'Socket.io', 'GraphQL',
+    'Styled Components', 'Python', 'npm', 'HTML5', 'NestJs'
   ]
 
   return <section
