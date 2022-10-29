@@ -44,7 +44,7 @@ const HomeExperienceSection = () => {
         {'<-- Drag/Scroll -->'}
       </div>
       <div className='md:grid md:grid-cols-3 pt-20 min-h-[52vh]'>
-        <div className='flex md:grid md:grid-cols-1 lg:h-60 w-fit max-w-[95vw] lg:overflow-hidden overflow-x-scroll text-lg text-theme-text-main font-bold headerFont'>
+        <div className='flex md:grid md:grid-cols-1 lg:h-[17rem] w-fit max-w-[95vw] lg:overflow-hidden overflow-x-scroll text-lg text-theme-text-main font-bold headerFont'>
           {
             experiencesData.map((ele, index) => {
               return <div className={
