@@ -15,7 +15,7 @@ import { ThemeChanger } from "./themeChanger";
 
 const menuItems = [
   { label: "Skills", link: "#skills" },
-  { label: "Projects", link: "#projects" },
+  // { label: "Projects", link: "#projects" },
   { label: "Contact", link: "mailto:hello@zurekcreative.com" },
 ];
 
