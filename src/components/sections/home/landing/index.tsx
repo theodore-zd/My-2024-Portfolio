@@ -31,12 +31,12 @@ const HomeLandingSection = () => {
               <span className="sm:block">for the web.</span>
             </span>
           </h1>
-          <p className="mb-12 text-theme-text-accent w-[38rem] max-w-[100vw] text-lg">
+          <p className="mb-12 text-theme-text-accent max-w-[38rem] text-lg">
             I believe in creating awesome accessible, human-centered experiences
             and writing clean and concise code. I love a good challenge and
             learning new technologies.
           </p>
-          <div className="flex">
+          <div className="flex flex-col  xs:flex-row gap-3">
             <a
               target="_blank"
               href="mailto:hello@zurekcreative.com"

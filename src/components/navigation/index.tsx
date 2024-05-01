@@ -129,6 +129,15 @@ const SiteNavigation = ({ collapse }: { collapse: boolean }) => {
                   />
                 );
               })}
+              <div className="flex justify-center pt-10">
+                <a
+                  target="_blank"
+                  href="/Theodore%20Zurek-Dunne%20Resume%202024.pdf"
+                  className="block md:hidden h-fit mt-6 mx-6 w-28 text-center py-1.5 rounded-md border-2 border-theme-accent text-theme-accent hover:tracking-[1px] hover:bg-black/10"
+                >
+                  Resume
+                </a>
+              </div>
             </ol>
           </nav>
         </div>
