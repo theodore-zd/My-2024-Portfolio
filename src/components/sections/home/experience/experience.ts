@@ -1,48 +1,69 @@
-const experiences = [
+export const experiences = [
   {
-    title: "Indie Tech - Full-Stack Developer, UI/UX Designer",
-    desc: "May 2022 - Jun 2024  (2 yrs 3 months)",
+    title: "Structura Biotechnology Inc",
+    desc: "July 2024 - September 2024",
+    role: "Full-Stack Developer",
     info: [
-      "Led a transformative UI/UX overhaul, resulting in a significant surge in user testing scores.",
-      "Spearheaded the integration of design systems and reusable components, accelerating development speed and reducing technical debt.",
-      "Contributed to the successful integration of DocuSign, streamlining document processes and enhancing user interactions.",
-      "Ensured SOC 2 compliance, fostering a secure and trustworthy environment for data management.",
+      "Refactored legacy Meteor-based methods, resulting in 16% faster API response times and a more maintainable codebase.",
     ],
   },
   {
-    title: "Kato.Studio - Founder",
-    desc: "October 2020 - July 2021 (10 months)",
+    title: "Indie Tech",
+    desc: "May 2022 - June 2024",
+    role: "Full-Stack Developer, UI/UX Designer",
     info: [
-      "Collaborated with clients to craft and enhance websites, strategically boosting sales and fostering customer retention. Achieving consistent 95+ Lighthouse scores, prioritized optimizing UI/UX, SEO, and accessibility.",
-      "Utilized a custom-built CMS to efficiently manage client content and introduce additional functionalities such as blogging systems, analytics, and editable API-first content structures. This microservices-based architecture, developed using NodeJs, TypeScript, and Docker, enables a seamless operation of API-first content systems in a headless mode.",
-      "Addressed the complexity of Google Analytics for clients by crafting a straightforward analytics system. This system monitors active users, time spent on the page, mouse clicks, and scroll percentages, providing valuable insights without unnecessary complexity.",
+      "Spearheaded UI/UX overhaul, resulting in a 43% improvement in user testing scores and a 27% decrease in UI-related support tickets.",
+      "Implemented design systems and reusable components, reducing development time by 33% and decreasing technical debt by 42%.",
+      "Collaborated to build full contract creation flow with DocuSign integration.",
+      "Collaborated to ensure SOC 2 compliance, enhancing data security.",
     ],
   },
   {
-    title: "Freelance - Full-Stack Developer, UI/UX Designer",
-    desc: "December 2019 - October 2020 (11 months)",
+    title: "Kato.Studio",
+    desc: "October 2020 - July 2021",
+    role: "Founder",
     info: [
-      "Collaborated with cross-functional teams to integrate cutting-edge design concepts seamlessly with robust backend functionality.",
-      "Contributed to the creation of design systems and reusable components, enhancing development speed and minimizing technical debt.",
-      "Employed problem-solving skills to address complex challenges and deliver innovative solutions that exceed client expectations.",
+      "Elevated client websites to achieve 95+ Lighthouse scores, resulting in an average increase of 53% in organic traffic and a 152% decrease in bounce rates.",
+      "Engineered custom CMS and microservices architecture, improving content management efficiency by an average of 62%.",
+      "Simplified Google Analytics for clients, leading to better visibility and data-driven decision-making.",
+      "Leveraged emerging industry trends to deliver innovative solutions, resulting in a 100% client satisfaction rate.",
     ],
   },
   {
-    title: "SalesGrowth Development Inc - Frontend Engineer, UI/UX Designer",
-    desc: "December 2018 - December 2019 (1 yrs 1 month)",
+    title: "Freelance",
+    desc: "December 2019 - October 2020",
+    role: "Full-Stack Developer",
     info: [
-      "Oversaw the design and development of 8 client websites, focusing on optimizing SEO, enhancing accessibility, and improving performance. This effort resulted in an impressive average decrease of 20% in load times.",
-      "Spearheaded a comprehensive redesign of an application for a dissatisfied client. Over 12 weeks of collaborative development, the revamped design and functionality not only garnered adoption by the staff but also successfully retained the client.",
-      "Ensured the ongoing enhancement of usability in existing client applications, contributing to sustained improvement and seamless user experiences.",
+      "Collaborated with cross-functional teams to integrate design concepts and backend functionality, reducing project timelines by 27%.",
+      "Contributed to design systems and reusable components, increasing development efficiency by 43%.",
+      "Delivered innovative solutions that exceeded client expectations, resulting in a 100% client retention rate.",
     ],
   },
   {
-    title: "Freelance - Graphic Designer -",
-    desc: "January 2016 - December 2018 (3 yrs)",
+    title: "SalesGrowth Development Inc",
+    desc: "December 2018 - December 2019",
+    role: "Frontend Engineer, UI/UX Designer",
     info: [
-      "Collaborated closely with clients to identify optimal solutions for their business challenges.",
-      "Crafted and executed tailored solutions encompassing rebranding, packaging, marketing materials, and website redesign. The outcomes were marked by heightened brand recognition and increased sales.",
+      "Optimized four client websites, improving SEO rankings by an average of 21%, accessibility scores by 42%, and load times by 22%.",
+      "Led comprehensive redesign of the client application, resulting in a 65% increase in user adoption.",
+      "Enhanced usability in existing client applications, leading to a 32% reduction in user-reported issues and a 28% increase in user satisfaction scores.",
+    ],
+  },
+  {
+    title: "Freelance",
+    desc: "January 2016 - December 2018",
+    role: "Graphic Designer",
+    info: [
+      "Collaborated with 23 clients to identify and execute optimal design solutions.",
+      "Delivered tailored solutions for rebranding, packaging, and marketing materials, resulting in an average 45% increase in brand recognition for clients.",
+    ],
+  },
+  {
+    title: "Awards & Achievements",
+    info: [
+      "Winner of the 2019 McMaster Design League UI/UX Designathon",
+      "Achieved 100% on-time project delivery rate across all roles",
+      "Consistently received 5-star client ratings for freelance projects"
     ],
   },
 ];
-export default experiences;

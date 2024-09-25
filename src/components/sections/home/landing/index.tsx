@@ -46,7 +46,7 @@ const HomeLandingSection = () => {
             </a>
             <a
               target="_blank"
-              href="/Theodore%20Zurek-Dunne%20Resume%202022.pdf"
+              href="/Theodore_Zurek-Dunne_Resume-2024.pdf"
             >
               <Button outline={true} onClick={() => {}}>
                 Resume

@@ -3,12 +3,13 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { fadeIn } from "./exFadeIn";
-import experiencesData from "./experience";
+import { experiences } from "./experience";
 
 interface stateInterface {
-  index: number;
+  index?: number;
   title: string;
-  desc: string;
+  desc?: string;
+  role?: string;
   info: string[] | [];
 }
 
@@ -17,6 +18,7 @@ const HomeExperienceSection = () => {
   const [state, setState] = useState<stateInterface>({
     index: 0,
     title: "",
+    role: "",
     desc: "",
     info: [],
   });
@@ -24,7 +26,7 @@ const HomeExperienceSection = () => {
   useEffect(() => {
     setState({
       index: 0,
-      ...experiencesData[0],
+      ...experiences[0],
     });
   }, []);
 
@@ -38,13 +40,12 @@ const HomeExperienceSection = () => {
             <span className="text-theme-accent ml-2">{"/>"}</span>
           </p>
         </div>
-
         <div className="lg:hidden whitespace-nowrap text-sm text-theme-text-main/50 text-center mt-14 -mb-16">
           {"<-- Drag/Scroll -->"}
         </div>
         <div className="md:grid md:grid-cols-3 pt-20 min-h-[52vh]">
-          <div className="flex md:grid md:grid-cols-1 lg:h-[17rem] w-fit max-w-[95vw] lg:overflow-hidden overflow-x-scroll text-lg text-theme-text-main font-bold headerFont">
-            {experiencesData.map((ele, index) => {
+          <div className="flex md:grid md:grid-cols-1 lg:min-h-[17rem] w-fit max-w-[95vw] lg:overflow-hidden overflow-x-scroll text-lg text-theme-text-main font-bold headerFont">
+            {experiences.map((ele: any, index: any) => {
               return (
                 <div
                   className={
@@ -76,11 +77,11 @@ const HomeExperienceSection = () => {
             className="ml-8 col-span-2 md:mt-0 mt-12"
           >
             <h5 className="text-2xl text-theme-text-main headerFont">
-              {state.title}
+              {state.title} {state.role && <><br /><span style={{ opacity: 0.5 }}>({state.role})</span></>}
             </h5>
-            <p className="text-theme-accent mt-2 mb-4 font-bold ">
+            {state?.desc && <p className="text-theme-accent mt-2 mb-4 font-bold ">
               {state.desc}
-            </p>
+            </p>}
             <ul className="text-theme-text">
               {state.info.map((text: string, index: number) => {
                 return (

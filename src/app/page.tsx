@@ -12,7 +12,6 @@ export default function Home() {
       <HomeAboutSection />
       <HomeSkillsSection />
       <HomeStarWarsSection />
-      {/* <HomeProjectsSection /> */}
       <HomeExperienceSection />
       <HomeContactSection />
     </main>
