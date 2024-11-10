@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { fadeIn } from "./exFadeIn";
-import { experiences } from "./experience";
+import { resume } from "../../../resume";
 
 interface stateInterface {
   index?: number;
@@ -26,7 +26,7 @@ const HomeExperienceSection = () => {
   useEffect(() => {
     setState({
       index: 0,
-      ...experiences[0],
+      ...resume.experiences[0],
     });
   }, []);
 
@@ -45,7 +45,7 @@ const HomeExperienceSection = () => {
         </div>
         <div className="md:grid md:grid-cols-3 pt-20 min-h-[52vh]">
           <div className="flex md:grid md:grid-cols-1 lg:min-h-[17rem] w-fit max-w-[95vw] lg:overflow-hidden overflow-x-scroll text-lg text-theme-text-main font-bold headerFont">
-            {experiences.map((ele: any, index: any) => {
+            {resume.experiences.map((ele: any, index: any) => {
               return (
                 <div
                   className={

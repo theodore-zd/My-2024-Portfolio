@@ -6,6 +6,7 @@
 // import { useStore } from '../../../lib/state'
 
 import { SkillsComp } from "./skills";
+import { resume } from "../../../resume";
 
 const HomeSkillsSection = () => {
   // const Theme = useStore((state:any) => state.Theme)
@@ -14,40 +15,8 @@ const HomeSkillsSection = () => {
   // const scrollData = useStore((state:any) => state.scrollData)
   // const scale = 1.5
 
-  const favTools: string[] = [
-    "Typescript",
-    "React",
-    "JavaScript",
-    "Tailwind",
-    "NextJs",
-    "NodeJs",
-    "Figma",
-    "Zustand",
-    "Svelte",
-    "Prisma",
-    "HTML5",
-    "Netlify",
-    "Postgres",
-    "Vue.js",
-    "Git",
-  ];
-  const toolBox: string[] = [
-    "Jest",
-    "MongoDB",
-    "Mongoose",
-    "Express",
-    "CSS3",
-    "Redux",
-    "Sass",
-    "Docker",
-    "Socket.io",
-    "GraphQL",
-    "Styled Components",
-    "Python",
-    "Npm",
-    "Pnpm",
-    "NestJs",
-  ];
+  const favTools: string[] = resume.skills.slice(0, 14);
+  const toolBox: string[] = resume.skills.slice(14, 100);
 
   return (
     <section className="relative w-full">

@@ -16,17 +16,18 @@ body {
   scroll-behavior: smooth;
 }
 
+/* "103, 201, 78" -> "103, 201, 78" */
 .theme-green-dark{
   --main-bg: 41, 47, 45;
-  --accent: 112, 187, 93;
+  --accent: 103, 201, 78;
   --text-main: 255, 255, 255;
-  --text-accent: 178, 179, 179;
+  --text-accent: 204, 204, 204;
   --text-alt: 35, 35, 35;
 }
 
 .theme-green-light{
   --main-bg: 245, 248, 236;
-  --accent: 112, 187, 93;
+  --accent: 103, 201, 78;
   --text-main: 17, 21, 28;
   --text-accent: 60, 64, 70;
   --text-alt: 255, 255, 255;
@@ -36,7 +37,7 @@ body {
   --main-bg: 37, 36, 36;
   --accent: 214, 104, 83;
   --text-main: 255, 255, 255;
-  --text-accent: 178, 179, 179;
+  --text-accent: 204, 204, 204;
   --text-alt: 35, 35, 35;
 }
 

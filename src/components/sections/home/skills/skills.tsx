@@ -4,7 +4,7 @@ export const SkillsComp = ({ skills }:{skills:string[]}) => {
       skills.map((ele, index) => {
         return <div
           key={'dailySkill' + index}
-          className='flex text-xl font-normal py-3'
+          className='flex text-xl font-normal py-3 pr-1'
         >
           <div className='pr-2 text-theme-accent font-bold'>{'»'}</div>
           <p>{ele}</p>

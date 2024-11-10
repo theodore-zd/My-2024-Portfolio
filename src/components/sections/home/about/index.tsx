@@ -43,13 +43,13 @@ const HomeAboutSection = () => {
       clearTimeout(loopTimer);
       ctx.clearRect(0, 0, canvas.width, canvas.height);
     };
-  }, [screenWidth, mouseY]);
+  }, [screenWidth, mouseY, mouseX]);
 
   return (
     <section className="relative h-full w-full p-px min-h-[80vh]">
       <div className="my-40">
         <div
-          className="relative bg-theme-main-bg/20 backdrop-blur-sm rounded overflow-hidden lg:flex max-w-[60rem] mx-auto z-20 "
+          className="relative bg-theme-main-bg/20 backdrop-blur-md rounded overflow-hidden lg:flex max-w-[70rem] mx-auto z-20 "
           style={
             {
               // boxShadow: 'rgb(0 0 0 / 10%) 0px 0px 20px'
@@ -60,28 +60,34 @@ const HomeAboutSection = () => {
             <Image
               src="/theodore_large_photo.png"
               alt=""
-              height={220}
-              width={220}
+              height={260}
+              width={260}
             />
           </div>
           <div className="ml-10 ">
             <h2 className="headerFont mb-1 text-theme-text-main text-3xl mt-4 font-[800] leading-[3.2rem] lg:leading-[4.3rem] ">
               About Me <span className="text-theme-accent">/&gt;</span>
             </h2>
-            <p className="mb-10 mr-5 md:mr-15 lg:mr-20 text-theme-text-accent">
-              {
+            <p className="mb-10 mr-5 md:mr-15 lg:mr-20 text-[22px] leading-relaxed text-theme-text-accent">
+
+              I love building high-performance, data-driven solutions, tinkering to optimize backend systems, designing seamless user interfaces, and delivering scalable applications that elevate functionality and speed.
+
+              With a collaborative, problem-solving approach, I’ve streamlined workflows, reduced technical debt, and driven impactful projects through modern technologies like Python microservices and RESTful APIs. Passionate about learning and innovation, I’m excited to contribute to teams pushing the boundaries of digital solutions.
+
+
+              {/* {
                 "I fell in love with design & coding 7 years ago. Since then I've had the opportunity to work for agencies and small businesses designing systems, building websites, and all kinds of other awesome projects. I believe in making every project better than my last."
               }
               <br />
               <br />
               {
                 "I'm always trying out new libraries and frameworks, even if just for cool weekend projects. "
-              }
+              } */}
             </p>
           </div>
         </div>
       </div>
-      <div className="w-full h-[40rem] absolute top-0 left-0 b-0">
+      <div className="w-full h-full absolute top-0 left-0">
         <canvas
           className="w-full h-full"
           height={canvasState.cHeight}
